@@ -1,0 +1,14 @@
+├── .github/                # GitHub Actions for CI/CD pipeline
+├── docs/                   # Documentation, Architecture, and KPIs [cite: 32, 35]
+│   ├── architecture_diagram.png
+│   ├── process_flow.md      # Workflow and SLA definitions [cite: 15, 33]
+│   └── value_proposition.pdf
+├── src/                    # Main source code
+│   ├── backend/            # API, Case Management, and Role-Based Access [cite: 14, 24]
+│   ├── frontend/           # Real-time Dashboards & DCA Portal [cite: 17, 24]
+│   ├── ai_engine/          # ML models for prioritization & recovery prediction 
+│   └── automation/         # RPA scripts and workflow logic [cite: 21, 22]
+├── data/                   # Mock datasets and preprocessing scripts (No real data!)
+├── tests/                  # Unit and integration tests
+├── README.md               # Project overview and setup instructions
+└── requirements.txt        # Dependencies
